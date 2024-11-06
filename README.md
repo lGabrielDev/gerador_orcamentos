@@ -9,7 +9,7 @@
 <div align="left">
     <img src="https://img.shields.io/badge/license-MIT-yellow" alt="badge icon"></img>
     <img src="https://img.shields.io/badge/version-1.0-green" alt="badge icon"></img>
-    <img src="https://img.shields.io/badge/repo size-ALTERAR-orange" alt="badge icon"></img>
+    <img src="https://img.shields.io/badge/repo size-1.8 MB-orange" alt="badge icon"></img>
 </div>
 
 <br>
@@ -50,7 +50,7 @@ Funciona assim:
 - Spring Boot 3.3.5
 - Spring Web
 - Apache POI --> Usado para manipular arquivos xlsx (orcamentos)
-- selenium --> Dependencia que sinula o navegador. Assim, conseguimos enviar o pdf para o whatsapp.
+- selenium --> Dependencia que simula o navegador. Assim, conseguimos enviar o pdf para o whatsapp.
 - OpenAPI (Swagger)
 
 
@@ -118,19 +118,19 @@ Esses campos seguem as seguintes validacoes:
 
 ### orcamento
 - **cliente**
-    - Nao pode ser null
-    - Deve possui entre 5 e 30 characters
+    - Não pode ser null
+    - Deve possuir entre 5 e 30 characters
 
 - **descricao**
-    - Nao pode ser null
-    - Deve possui entre 5 e 45 characters
+    - Não pode ser null
+    - Deve possuir entre 5 e 45 characters
 
 - **observacoes**
-    - Deve possui entre 5 e 200 characters
+    - Deve possuir entre 5 e 200 characters
 
 - **descricao**
-    - Nao pode ser null
-    - Deve possui entre 5 e 45 characters
+    - Não pode ser null
+    - Deve possuir entre 5 e 45 characters
 
 - **prazoEntrega**
     - Deve ser maior que 0
@@ -148,29 +148,29 @@ Esses campos seguem as seguintes validacoes:
 ### item
 
 - **descricao**
-    - Nao pode ser null
-    - Deve possui entre 5 e 80 characters
+    - Não pode ser null
+    - Deve possuir entre 5 e 80 characters
 
 - **acabamento**
-    - Nao pode ser null
-    - Deve possui entre 5 e 80 characters
+    - Não pode ser null
+    - Deve possuir entre 5 e 80 characters
 
 - **medidas**
-    - Deve possui entre 5 e 80 characters
+    - Deve possuir entre 5 e 80 characters
 
 - **valorUnit**
-    - Nao pode ser null
-    - Deve possui ser maior que 0
+    - Não pode ser null
+    - Deve possuir ser maior que 0
 
 - **quantity**
-    - Nao pode ser null
-    - Deve possui ser maior que 0
+    - Não pode ser null
+    - Deve possuir ser maior que 0
 
 <hr>
 <br>
 
 <!-- Custom Exception Handler -->
-## <img src="https://cdn4.iconfinder.com/data/icons/common-app-symbols-round-colored/1024/caveat_proviso_disclaimer_exception_app_round_colored-512.png" alt ="image icon" width="40px" align="center"> Lancamento de exceções customizadas
+## <img src="https://cdn4.iconfinder.com/data/icons/common-app-symbols-round-colored/1024/caveat_proviso_disclaimer_exception_app_round_colored-512.png" alt ="image icon" width="40px" align="center"> Lançamento de exceções customizadas
 
 Todas as exceções foram personalizadas para um melhor entendimento do usuário
 
