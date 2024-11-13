@@ -60,7 +60,12 @@ public class InserirDadosPlanilhaDados implements PreencherPlanilhaImp{
         
         //prazo de entrega
         Cell prazoDeEntregaCell = sheetDados.getRow(8).getCell(1);
-        prazoDeEntregaCell.setCellValue(dadosOrcamento.getPrazoEntrega() + " dias");
+        if(dadosOrcamento.getPrazoEntrega() == null){
+            prazoDeEntregaCell.setCellValue("");
+        }
+        else{
+            prazoDeEntregaCell.setCellValue(dadosOrcamento.getPrazoEntrega() + " dias");
+        }
 
         //salvamos o arquivo
         try(FileOutputStream localSalvar = new FileOutputStream(filepath)){

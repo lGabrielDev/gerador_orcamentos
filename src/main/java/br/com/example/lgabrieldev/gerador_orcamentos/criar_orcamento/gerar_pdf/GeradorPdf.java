@@ -21,7 +21,7 @@ public class GeradorPdf {
 
     //inicializar variable pdfPathToSave
     public void pdfAttributeSetup(){
-        this.pdfPathToSave = repoPath + "\\whats_excel_complete\\src\\main\\resources\\static\\modelo_orcamento_and_script\\" + this.pdfName;
+        this.pdfPathToSave = repoPath + "\\gerador_orcamentos\\src\\main\\resources\\static\\modelo_orcamento_and_script\\" + this.pdfName;
     }
  
     //criamos o script
@@ -31,7 +31,7 @@ public class GeradorPdf {
             "Dim objExcel, objWorkbook\r\n" + //
             "\r\n" + //
             "' Defina o caminho do arquivo do Excel e o caminho de destino do PDF\r\n" + //
-            "filePathExcel = \"%s\\whats_excel_complete\\src\\main\\resources\\static\\modelo_orcamento_and_script\\modelo_simples.xlsm\"\r\n" + //
+            "filePathExcel = \"%s\\gerador_orcamentos\\src\\main\\resources\\static\\modelo_orcamento_and_script\\modelo_simples.xlsm\"\r\n" + //
             "filePathSalvarPdf = \"%s\"\r\n" + //
             "\r\n" + //
             "' Inicialize o objeto Excel\r\n" + //

@@ -76,9 +76,6 @@ public class Orcamento {
     }
 
     public Integer getPrazoEntrega() {
-        if(this.prazoEntrega == null){
-            this.prazoEntrega = 0;
-        }
         return this.prazoEntrega;
     }
 

@@ -1,8 +1,8 @@
 Dim objExcel, objWorkbook
 
 ' Defina o caminho do arquivo do Excel e o caminho de destino do PDF
-filePathExcel = "C:\Users\leekbiel\Desktop\whats_excel_complete\src\main\resources\static\modelo_orcamento_and_script\modelo_simples.xlsm"
-filePathSalvarPdf = "C:\Users\leekbiel\Desktop\whats_excel_complete\src\main\resources\static\modelo_orcamento_and_script\orcamento.pdf"
+filePathExcel = "C:\Users\leekbiel\Desktop\gerador_orcamentos\src\main\resources\static\modelo_orcamento_and_script\modelo_simples.xlsm"
+filePathSalvarPdf = "C:\Users\leekbiel\Desktop\gerador_orcamentos\src\main\resources\static\modelo_orcamento_and_script\orcamento.pdf"
 
 ' Inicialize o objeto Excel
 Set objExcel = CreateObject("Excel.Application")
